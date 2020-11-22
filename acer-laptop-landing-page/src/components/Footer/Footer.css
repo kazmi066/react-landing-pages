@@ -1,0 +1,32 @@
+.footer {
+  padding: 2rem 0;
+}
+
+.footer .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .social-icons {
+  margin-bottom: 1rem;
+}
+
+.footer .social-icons a {
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: red;
+}
+
+.footer .social-icons a i {
+  font-size: 1.2rem;
+}
+
+.footer .right .secondary-text {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}

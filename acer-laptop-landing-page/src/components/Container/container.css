@@ -1,0 +1,9 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.smallest {
+  width: 70%;
+}

@@ -1,0 +1,13 @@
+.redLine {
+  height: 0.3rem;
+  width: 3rem;
+  background-color: red;
+  margin: 1rem 0;
+}
+
+.small {
+  height: 0.5rem;
+  width: 2.5rem;
+  background-color: red;
+  margin: 1rem 0;
+}

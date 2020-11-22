@@ -1,0 +1,45 @@
+.intro {
+  width: 100%;
+}
+
+.intro .bgImage {
+  background: url("../../assets/introBackground.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+}
+
+.intro .bgImage:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.intro .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro .content img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.intro .content h4 {
+  font-size: clamp(0.5rem, 5vw, 1.5rem);
+  margin: 0 0 0.7rem 0;
+}
+.intro .content p {
+  font-size: clamp(0.4rem, 3vw, 1rem);
+  margin: 0 0 0.5rem 0;
+}

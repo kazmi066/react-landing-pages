@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Galada', cursive; */
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+.secondary-text {
+  color: rgb(206, 206, 206);
+}
+
+.logo {
+  font-family: "Galada", cursive;
+  font-size: 2.4rem;
+  text-transform: none;
+}

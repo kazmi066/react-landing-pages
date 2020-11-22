@@ -1,0 +1,47 @@
+.service {
+  padding: 4rem 0;
+}
+
+.service .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .idea .small_title {
+  font-weight: normal;
+}
+
+.service .idea {
+  width: 25%;
+}
+
+.service .sec-1,
+.service .sec-2,
+.service .sec-3 {
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+  width: 25%;
+}
+
+.service .description {
+  color: rgb(206, 206, 206);
+}
+
+@media (max-width: 1200px) {
+  .service {
+    margin-top: 32rem;
+  }
+  .service .idea {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .service .sec-1,
+  .service .sec-2,
+  .service .sec-3 {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0;
+  }
+}

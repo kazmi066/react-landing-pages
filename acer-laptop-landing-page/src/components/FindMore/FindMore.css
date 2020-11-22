@@ -1,0 +1,22 @@
+.findMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.3rem;
+  background-color: transparent;
+  color: white;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  border: 1px solid grey;
+  margin: 1.5rem 0;
+}
+
+.findMore:hover {
+  color: red;
+  cursor: pointer;
+}
+.findMore * {
+  margin: 0 0.5rem;
+}

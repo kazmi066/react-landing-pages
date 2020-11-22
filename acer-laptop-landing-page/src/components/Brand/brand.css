@@ -1,0 +1,205 @@
+.brand {
+  margin: 3rem 0;
+  height: 100vh;
+}
+
+.brand .bgImage {
+  background: url("../../assets/setupDesktop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 5rem;
+  z-index: 1;
+}
+
+.brand .bgImage:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+
+  z-index: -1;
+}
+
+.brand nav {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.brand .logo {
+  font-family: "Galada", cursive;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.brand .header-links {
+  display: flex;
+}
+
+.brand .header-links li {
+  margin: 0 1rem;
+  opacity: 0.9;
+}
+
+.brand a {
+  transition: color 0.3s ease;
+}
+
+.brand a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.brand .header-icons a {
+  margin: 0 0.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+}
+
+.brand .content {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  justify-items: center;
+}
+
+.brand .col-1 {
+  margin-top: 2rem;
+}
+
+.brand .col-1 .title {
+  line-height: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: clamp(1.5rem, 10vw, 2.5rem);
+  text-transform: uppercase;
+}
+
+.brand .col-1 .description {
+  margin-top: 1rem;
+  font-size: clamp(0.2rem, 10vw, 1rem);
+  width: 80%;
+}
+
+.trailer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(98, 98, 98, 0.3);
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-top: 6rem;
+}
+
+.trailer .left {
+  padding-left: 1rem;
+  width: 50%;
+}
+
+.trailer .left .t_title {
+  margin-bottom: 0.2rem;
+}
+
+.trailer .left .t_description {
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+
+.brand .col-2 img {
+  width: 100%;
+}
+
+.brand .col-2 {
+  position: relative;
+}
+
+.brand .col-2 .social-links {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -12rem;
+  top: 50%;
+}
+
+.brand .col-2 .social-links a {
+  margin: 1rem;
+  font-size: clamp(0.1rem, 1vw, 0.6rem);
+}
+
+.brand .toggle:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Toggle button for mobile */
+.brand .toggle {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .trailer {
+    width: 80%;
+  }
+  .trailer .left .t_description {
+    margin-bottom: 2rem;
+  }
+  .trailer .left {
+    width: 100%;
+  }
+  .brand .col-2 .social-links {
+    top: 45%;
+    right: -3rem;
+  }
+  .brand .col-2 {
+    margin: 3rem 0;
+  }
+  .brand .col-2 img {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .brand .header-links {
+    transform: translateX(-150%);
+    display: none;
+  }
+
+  .brand .toggle {
+    display: initial;
+  }
+
+  .brand .header-links-show {
+    transform: translateX(0);
+    display: initial;
+    flex-direction: column;
+    transform: translateY(80%);
+    background-color: white;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .brand .header-links li {
+    padding: 0.1rem 0.5rem;
+  }
+  .brand .header-links li a {
+    color: red;
+    font-weight: bold;
+  }
+
+  .brand .header-links li a:hover {
+    color: black;
+  }
+
+  .brand .header-icons {
+    display: none;
+  }
+}
