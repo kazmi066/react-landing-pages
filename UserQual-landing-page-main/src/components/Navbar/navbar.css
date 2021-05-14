@@ -1,0 +1,59 @@
+.navbar {
+  background-color: var(--primary-color);
+  /* position: fixed; */
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  font-size: 1.5rem !important;
+  color: #f3f1f1 !important;
+  font-weight: 700 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #f3e1dd;
+  cursor: pointer;
+}
+.navbar .navbar-nav .signin_btn {
+  padding: 3px 12px !important;
+  border-radius: 5px;
+  color: #004479 !important;
+  transition: background 0.3s ease;
+  background-color: #71cfd7;
+}
+.navbar .navbar-nav .signin_btn:hover {
+  background-color: #ffffff;
+}
+.navbar .navbar-nav .pricing {
+  padding: 3px 12px !important;
+  font-size: large;
+  color: white !important;
+}
+.navbar .navbar-nav .nav-item {
+  margin: 1px 6px;
+}
+.navbar .navbar-nav .transfer_btn {
+  padding: 3px 20px !important;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background-color: aliceblue;
+  color: rgb(20, 19, 19) !important;
+}
+.navbar .navbar-nav .transfer_btn:hover {
+  color: #f3f1f1 !important;
+  background-color: rgb(70, 210, 253);
+}
+
+/* AT medium Screen */
+@media screen and (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .nav-item {
+    text-align: center;
+    padding: 3px 0 !important;
+  }
+  .navbar .navbar-nav .pricing {
+    color: white !important;
+  }
+  .navbar .navbar-nav .signin_btn:hover,
+  .navbar .navbar-nav .transfer_btn:hover {
+    box-shadow: none;
+  }
+}

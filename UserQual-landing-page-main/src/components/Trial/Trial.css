@@ -1,0 +1,67 @@
+#trial {
+  height: auto;
+  padding: 4em 0;
+}
+
+#trial .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#trial .text_section {
+  text-align: center;
+}
+
+#trial img {
+  width: clamp(300px, 50vw, 50%);
+  margin-bottom: 1em;
+}
+
+#trial .trial_title {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: clamp(2em, 5vw, 2.8em);
+  text-transform: capitalize;
+}
+
+#trial .trial_description {
+  font-weight: lighter;
+  font-size: clamp(1.1em, 5vw, 1.3em);
+  margin: 2em 0;
+}
+
+#trial .try_button,
+#trial .demo_button {
+  width: clamp(200px, 40vw, 250px);
+  height: clamp(55px, 40vw, 70px);
+  font-size: clamp(1.1em, 3vw, 1.4em);
+  border-radius: 0.3em;
+  margin: 0 0.4em;
+}
+
+#trial .try_button {
+  background-color: transparent;
+  border: 2px solid rgb(135, 224, 252);
+  transition: background 0.3s ease;
+  text-transform: uppercase;
+  margin: 0.6em 0;
+}
+
+#trial .try_button:hover {
+  cursor: pointer;
+  background-color: rgb(70, 210, 253);
+}
+
+#trial .demo_button {
+  transition: background 0.3s ease;
+  color: white;
+  background-color: rgb(255, 133, 96);
+  border: none;
+}
+
+#trial .demo_button:hover {
+  cursor: pointer;
+  background-color: rgb(250, 109, 66);
+}

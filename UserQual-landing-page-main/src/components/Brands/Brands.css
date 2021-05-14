@@ -1,0 +1,36 @@
+#brand {
+  padding: 2em 0;
+  background-color: rgb(250, 250, 250);
+}
+
+#brand .containerx {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#brand .title {
+  text-align: center;
+  opacity: 0.8;
+  font-size: clamp(2em, 5vw, 3.4em);
+  margin: 0.5em 0;
+}
+
+#brand .brand_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#brand .brand_description {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#brand .brand_images img {
+  width: 250px;
+  height: 150px;
+  padding: 2em;
+  opacity: 0.5;
+  margin: 1em;
+}

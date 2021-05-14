@@ -1,0 +1,51 @@
+.feature {
+  margin: 2em 2em 0 2em;
+  padding: 1.2em 0;
+  clear: both;
+  font-weight: normal;
+}
+
+.feature .content,
+.feature .content_left {
+  width: 70%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 0 4px 0.5px grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.3em 1em;
+  float: left;
+}
+
+.feature .content_left {
+  float: right;
+  padding: 0em 1em;
+}
+
+.feature .content .feature_heading,
+.feature .content_left .feature_heading {
+  font-size: clamp(1em, 3vw, 1.6em);
+  opacity: 0.8;
+  margin: 0.5em 0;
+}
+
+.feature ul {
+  padding-left: 1em;
+}
+
+.feature .content .list_item,
+.feature .content_left .list_item {
+  font-size: clamp(0.5em, 3vw, 1em);
+}
+
+.feature .content .feature_image {
+  padding: 1em 0;
+  width: clamp(150px, 30vw, 350px);
+}
+
+.feature .content_left .feature_image {
+  padding: 1em 0;
+  width: clamp(140px, 30vw, 300px);
+}

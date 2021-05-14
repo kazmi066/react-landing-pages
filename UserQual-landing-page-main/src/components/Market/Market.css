@@ -1,0 +1,50 @@
+#market {
+  margin-top: 25em;
+  height: auto;
+}
+#market .title {
+  text-align: center;
+  font-size: clamp(1.3em, 2vw, 2em);
+  text-transform: capitalize;
+  color: #5c5a5a;
+  opacity: 0.8;
+  margin: 1em 0;
+}
+
+#market .market_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#market .container .list .list_heading {
+  color: #5c5a5a;
+  font-size: larger;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#market .container .list .list_desc {
+  margin: 6px 22px;
+}
+#market .container .list .hide {
+  display: none;
+}
+#market .container .list {
+  list-style: none;
+}
+#market .container .list .reverse {
+  transform: rotate(-90deg);
+  font-weight: lighter;
+}
+@media screen and (max-width: 1199px) {
+  #market .content {
+    margin: 2.5em;
+  }
+  #market {
+    margin-top: 32em;
+    height: auto;
+  }
+  #market .market_cards .row {
+    text-align: center;
+  }
+}

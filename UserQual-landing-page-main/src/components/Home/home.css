@@ -1,0 +1,51 @@
+#top_section {
+  position: relative;
+  min-height: 90vh;
+  background-image: url("../../assets/landing_waves.png");
+
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.for_BG {
+  background-color: var(--primary-color);
+}
+
+#top_section .container .main_content {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#top_section .container .descriptionx {
+  font-size: 12pt;
+}
+#top_section .container .smallx {
+  font-size: 15px;
+}
+
+#top_section .container .free_btn {
+  background-color: #71cfd7;
+  border-radius: 30px;
+  border: transparent;
+  outline: none;
+  box-shadow: none;
+  font-size: 17.5pt;
+  color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  transition: all 0.5s;
+}
+#top_section .container .free_btn:hover {
+  background-color: #fff;
+  color: #71cfd7;
+  transform: translateY(-15%);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.61);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.61);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.61);
+}
+
+@media screen and (max-width: 732px) {
+}

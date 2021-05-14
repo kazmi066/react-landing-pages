@@ -1,0 +1,30 @@
+.card {
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 1px rgb(241, 241, 241);
+  text-align: center;
+  margin: 1em;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.card .heading {
+  padding: 0.4em 0;
+}
+/* 
+@media screen and (max-width: 487px) {
+  .card {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .card {
+    margin: 0.4em;
+  }
+} */
