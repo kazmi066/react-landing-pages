@@ -1,0 +1,68 @@
+@import "../../global";
+
+#home-footer {
+  padding: 3rem 0 1.9rem 0;
+  background: url("../../assets/homeFooter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100%;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.4rem;
+    flex-wrap: wrap;
+
+    .footer-logo {
+      img {
+        max-width: 160px;
+      }
+      p {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    .footer-text {
+      text-transform: uppercase;
+      font-size: clamp(0.4rem, 4vw, 1.1rem);
+    }
+
+    @media only screen and (max-width: 767px) {
+      .footer-text {
+        white-space: pre-wrap;
+      }
+
+      .footer-logo {
+        padding-right: 0.5rem;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .footer-logo {
+        margin-bottom: 0.5rem;
+      }
+      .footer-logo,
+      .copyrights,
+      .footer-text {
+        width: 100%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    #home-footer {
+      position: relative;
+      background: url("../../assets/homeFooterMobile.png") no-repeat 0 0;
+      background-position-x: 0px;
+      background-position-y: 0px;
+      background-image: url("../../assets/homeFooterMobile.png");
+      background-size: auto;
+      background-size: cover;
+      padding: 35px 45px 110px;
+      width: 100%;
+    }
+  }
+}

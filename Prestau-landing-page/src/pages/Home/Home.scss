@@ -1,0 +1,27 @@
+h1 {
+  font-weight: bold;
+  font-size: clamp(24px, 10vw, 48px);
+}
+
+h2 {
+  @extend h1;
+  font-size: clamp(21px, 10vw, 36px);
+}
+
+h3 {
+  font-size: clamp(14px, 10vw, 21px);
+  font-weight: 500;
+}
+
+h4 {
+  font-size: clamp(10px, 6vw, 24px);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+
+strong {
+  font-weight: 600;
+}

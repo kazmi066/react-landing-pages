@@ -1,0 +1,30 @@
+header {
+  padding: 1.2rem 0;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.4rem;
+
+    .header-logo {
+      img {
+        max-width: 120px;
+      }
+    }
+
+    .header-text {
+      text-transform: uppercase;
+      font-size: clamp(0.4rem, 4vw, 1.1rem);
+    }
+
+    @media only screen and (max-width: 767px) {
+      .header-text {
+        white-space: pre-wrap;
+      }
+
+      .header-logo {
+        padding-right: 3rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+#main-content {
+  // background: url("../../assets/main-bg.png");
+  // background-color: rgba(236, 255, 236, 0.315);
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 1rem 0;
+  position: relative;
+
+  .faqs-waves {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    transform: rotate(180deg);
+  }
+
+  .faqs-waves2 {
+    @extend .faqs-waves;
+    transform: rotate(0deg);
+  }
+
+  .content {
+    .main-content-top-section {
+      display: flex;
+      padding: 2rem 0 5rem 0;
+      align-items: center;
+      justify-content: center;
+
+      .left-section {
+        width: 100%;
+        .title {
+          padding: 1rem 0;
+          text-align: center;
+          font-size: clamp(24px, 10vw, 48px);
+        }
+
+        .description {
+          text-align: center;
+          opacity: 0.7;
+          line-height: 2.2rem;
+        }
+      }
+
+      .right-section {
+        img {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+    }
+
+    .main-content-other-section {
+      .blue-heading {
+        width: 90%;
+        color: rgb(30, 129, 211);
+      }
+      .foundations {
+        padding: 0.5rem 0;
+      }
+      .foundations-points {
+        padding-left: 1rem;
+        line-height: 1.3rem;
+        font-size: 1.1rem;
+
+        .first-point {
+          font-weight: 600;
+          text-decoration: underline;
+        }
+      }
+      .agility {
+        .agile {
+          display: inline-block; /* or block */
+          padding: 1.4rem 0;
+        }
+        .agility-points {
+          padding-left: 1rem;
+        }
+      }
+
+      .zoom {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+      }
+
+      .regulation-points {
+        padding-left: 1rem;
+      }
+    }
+  }
+}

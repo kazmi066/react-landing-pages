@@ -1,0 +1,92 @@
+#formapply {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-color: #2596e7;
+  background: rgba(249, 249, 249, 1);
+  border-width: 2px;
+  border-radius: 10px;
+
+  .title {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    font-weight: 600;
+  }
+
+  .form-group {
+    padding: 1rem 1.4rem;
+
+    div {
+      line-height: 0.7rem;
+      margin: 1.3rem 0;
+
+      input {
+        padding: 0.5rem 1rem;
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid #e6e6e6;
+
+        &:focus {
+          border-color: #2596e7;
+        }
+      }
+
+      input[type="checkbox"] {
+        padding: 0;
+        width: 15px;
+      }
+    }
+
+    .agreebox {
+      span {
+        display: block;
+        padding-bottom: 0.4rem;
+        font-weight: 600;
+      }
+      label {
+        display: inline;
+        font-weight: normal;
+      }
+    }
+
+    .submitbtn {
+      padding: 0.6rem 2rem;
+      width: 100%;
+      margin-top: 2rem;
+      text-transform: uppercase;
+      background: rgba(136, 185, 65, 1);
+      color: white;
+
+      &:hover {
+        background: rgb(118, 158, 61);
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      padding: unset;
+
+      .agreebox {
+        span {
+          line-height: 1.1rem;
+        }
+      }
+    }
+  }
+
+  .date-underline {
+    text-decoration: underline;
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}

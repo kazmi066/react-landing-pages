@@ -1,0 +1,58 @@
+#hosts {
+  padding: 4rem 0 5rem 0;
+  background: linear-gradient(rgba(21, 21, 21, 0.801), rgba(26, 26, 26, 0.884)),
+    url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+
+  .title {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-weight: normal;
+  }
+
+  .persons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .person {
+      display: flex;
+      .name,
+      .department {
+        text-transform: capitalize;
+        margin: 0 1rem;
+      }
+      .department {
+        padding: 2rem 0;
+        font-size: 0.8rem;
+        text-align: right;
+      }
+      img {
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid white;
+      }
+
+      @media only screen and (max-width: 600px) {
+        img {
+          width: 120px;
+        }
+      }
+    }
+
+    .person:first-child {
+      margin-right: 4rem;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .person:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
