@@ -1,0 +1,35 @@
+#home {
+  overflow: hidden;
+}
+
+.btns .btn:not(:first-child) {
+  margin: 0 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  color: white;
+  font-size: 14px;
+}
+
+.btn-follow {
+  color: black;
+  border: 1px solid #f04225;
+}
+.btn-join {
+  border: none;
+  background: #f04225;
+}
+
+.customContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .customContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

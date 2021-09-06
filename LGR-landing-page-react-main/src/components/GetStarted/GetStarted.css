@@ -1,0 +1,65 @@
+#getStarted {
+  margin: 10rem 0 5rem 0;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
+}
+
+#getStarted .title {
+  font-size: clamp(3rem, 5vw, 4rem);
+  width: 80%;
+  font-weight: bold;
+}
+
+#getStarted .startedImg {
+  position: absolute;
+  right: 3rem;
+  bottom: -13rem;
+  z-index: -1;
+  width: 50%;
+}
+
+#getStarted .info {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  width: 60%;
+  margin: 2rem 0;
+}
+
+#getStarted .getStartedBtn {
+  padding: 1.2rem 3rem;
+  font-size: 1.6rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: #ffb613;
+  transition: 0.3s ease all;
+  margin-top: 2rem;
+}
+
+#getStarted .getStartedBtn:hover {
+  background-color: #f1a500;
+}
+
+#getStarted .allText {
+  z-index: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  #getStarted {
+    margin-top: 7rem;
+  }
+  #getStarted .title {
+    width: 100%;
+  }
+  #getStarted .info {
+    width: 100%;
+  }
+  #getStarted .startedImg {
+    opacity: 0.4;
+    left: 0;
+    display: none;
+  }
+  #getStarted .getStartedBtn {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+  }
+}

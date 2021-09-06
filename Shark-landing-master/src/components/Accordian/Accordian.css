@@ -1,0 +1,44 @@
+.accordion-button::after {
+  background-image: url("../../assets/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/minus.png");
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  background: transparent;
+  color: black;
+}
+
+.accordion-flush .accordion-item.faq-accordian-item .accordion-button {
+  color: white;
+}
+
+.accordion-flush .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #cae6f9;
+  color: black;
+}
+
+.accordion-button {
+  padding: 2rem 1rem;
+}
+
+.faq-accordian-item.accordion-item {
+  background: transparent;
+}
+
+.accordion-body {
+  padding: 4rem 2rem;
+  opacity: 0.5;
+}
+
+.accordion-body.white-body {
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .accordion-body {
+    padding: 1rem;
+  }
+}

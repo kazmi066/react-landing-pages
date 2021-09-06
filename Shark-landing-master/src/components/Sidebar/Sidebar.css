@@ -1,0 +1,72 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh;
+  z-index: 1;
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.sidebar .content .btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  margin: 0 0.5rem;
+  color: black;
+}
+
+.sidebar .content .btn-mint {
+  border: 1px solid #f04225;
+}
+
+.sidebar .top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar .content .btn-connect {
+  border: none;
+  background: #f04225;
+  color: white;
+}
+
+.sidebar .toggleBtn {
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  z-index: 3;
+}
+
+.sidebar .toggleBtn:hover {
+  cursor: pointer;
+}
+
+.sidebar .links {
+  margin: 3rem 0 7rem 0;
+  padding: 0 1rem;
+}
+
+.sidebar .links .link {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
+.sidebar .links .link:hover {
+  opacity: 0.5;
+}
+
+.sidebar .mid-text {
+  padding: 0.4rem 1rem;
+}
+
+.sidebar .mid-text .bigtext {
+  font-size: 1.1rem;
+}

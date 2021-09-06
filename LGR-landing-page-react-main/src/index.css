@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: rgb(248, 242, 209);
+  --primary-text: #707070;
+  --secondary-text: #1b2647;
+}

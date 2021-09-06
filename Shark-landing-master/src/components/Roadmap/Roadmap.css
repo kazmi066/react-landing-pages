@@ -1,0 +1,59 @@
+#roadmap,
+#faq {
+  padding: 6rem 0;
+}
+
+#faq {
+  background-color: #061829;
+  color: white;
+}
+
+#roadmap .content .sm-title,
+#faq .content .sm-title {
+  font-size: 1rem;
+  color: #7a7a7a;
+  width: 70%;
+  padding: 0 4rem;
+}
+
+#faq .content .sm-title {
+  color: white;
+}
+
+#roadmap .content .top-text .lg-title,
+#faq .content .top-text .lg-title {
+  font-size: clamp(2.8rem, 5vw, 70px);
+  margin: 1rem 0;
+}
+
+#roadmap .content .top-text,
+#faq .content .top-text {
+  width: 70%;
+  padding: 0 4rem;
+  margin: 2rem 0 4rem 0;
+}
+
+#roadmap .content .top-text .desc,
+#faq .content .top-text .desc {
+  font-size: clamp(0.5rem, 4vw, 28px);
+  color: #1e1e1e;
+}
+
+#faq .content .top-text .desc {
+  color: white;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 900px) {
+  #roadmap .content .top-text,
+  #faq .content .top-text {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 2rem 0 4rem 0;
+  }
+  #roadmap .content .sm-title,
+  #faq .content .sm-title {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}

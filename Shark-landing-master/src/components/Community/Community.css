@@ -1,0 +1,64 @@
+#community {
+  padding: 10rem 0;
+}
+
+#community .content .grid-section {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+  gap: 10rem 5rem;
+}
+
+#community .content .grid-section .text {
+  width: 100%;
+  text-align: left;
+}
+
+#community .content .grid-section img {
+  width: 100%;
+}
+
+#community .content .grid-section .title {
+  font-size: clamp(2.8rem, 5vw, 70px);
+  text-transform: capitalize;
+  padding-bottom: 5rem;
+  text-align: left;
+}
+
+#community .content .grid-section .desc {
+  font-size: clamp(0.5rem, 4vw, 28px);
+  padding-bottom: 1rem;
+}
+
+#community .content .btns {
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  #community .content .grid-section img {
+    width: 100%;
+  }
+  #community .content .grid-section .text {
+    height: unset;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #community {
+    padding: 5rem 0.5rem;
+  }
+  #community .content .grid-section {
+    width: 100%;
+    gap: 0rem;
+    margin: 4rem 0;
+  }
+  #community .content .grid-section .title {
+    padding-bottom: 1rem;
+  }
+  #community .content .grid-section .text {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+}

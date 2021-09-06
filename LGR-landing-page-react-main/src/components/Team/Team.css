@@ -1,0 +1,41 @@
+#team {
+  margin: 10rem 0;
+}
+
+#team .title {
+  font-size: clamp(3rem, 5vw, 5.6rem);
+  margin: 5rem 0;
+  font-weight: bold;
+}
+
+#team .content .teamGrid {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}
+
+#team .content .member {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+#team .content .member img {
+  width: 13rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #team .title {
+    text-align: center;
+  }
+  #team .content .teamGrid {
+    justify-content: center;
+  }
+}

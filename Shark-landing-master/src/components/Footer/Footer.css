@@ -1,0 +1,23 @@
+#footer {
+  padding: 1rem 0;
+}
+
+#footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+#footer .content .footer-text {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer .content {
+    flex-direction: column;
+  }
+  #footer .content .footer-text {
+    padding: 2rem 0 0 0;
+  }
+}

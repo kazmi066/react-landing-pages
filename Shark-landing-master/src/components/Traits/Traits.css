@@ -1,0 +1,91 @@
+#traits {
+  padding: 16rem 0;
+}
+
+#traits .content {
+  position: relative;
+}
+
+#traits .content .grid-section {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+}
+
+#traits .content .grid-section .text {
+  width: 75%;
+  text-align: left;
+  height: 0;
+}
+
+#traits .content .grid-section img {
+  width: 80%;
+}
+
+#traits .content .grid-section .title {
+  color: #7a7a7a;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+#traits .content .grid-section .desc {
+  font-size: clamp(1rem, 5vw, 24px);
+}
+
+#traits .content .grid-section .subtitle {
+  font-size: clamp(1.6rem, 5vw, 30px);
+  padding: 0.7rem 0;
+}
+
+#traits .content .gunImg {
+  position: absolute;
+  top: -40%;
+  left: 27%;
+}
+
+#traits .content .btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 14px;
+  color: white;
+}
+
+#traits .content .btn-trait {
+  border: none;
+  background: #f04225;
+}
+
+@media only screen and (max-width: 1480px) {
+  #traits .content .gunImg {
+    top: -40%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #traits {
+    padding: 0 0.5rem 3rem 0.5rem;
+  }
+  #traits .content .grid-section .text {
+    height: unset;
+  }
+  #traits .content .gunImg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #traits .content .grid-section {
+    width: 100%;
+    margin: 4rem 0;
+  }
+  #traits .content .grid-section .text {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: unset;
+  }
+}

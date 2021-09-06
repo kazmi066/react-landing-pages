@@ -1,0 +1,76 @@
+#overview {
+  background-color: #cae6f9;
+  padding: 10rem 0;
+}
+
+#overview .content .top-text {
+  width: 45%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+#overview .content .top-text .title {
+  font-size: clamp(2.8rem, 5vw, 70px);
+}
+
+#overview .content .top-text .desc {
+  font-size: clamp(1rem, 5vw, 28px);
+  text-align: left;
+}
+
+#overview .content .grid-section {
+  width: 90%;
+  margin: 5rem auto 7rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+}
+
+#overview .content .grid-section .text {
+  width: 70%;
+  text-align: left;
+  height: 0;
+}
+
+#overview .content .grid-section img {
+  width: 100%;
+}
+
+#overview .content .grid-section .title {
+  color: #7a7a7a;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+#overview .content .grid-section .desc {
+  font-size: clamp(1rem, 5vw, 24px);
+}
+
+#overview .content .grid-section .subtitle {
+  font-size: clamp(1.6rem, 5vw, 30px);
+  padding: 0.7rem 0;
+}
+
+@media only screen and (max-width: 1560px) {
+  #overview .content .grid-section .text {
+    height: unset;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #overview .content .top-text {
+    width: 100%;
+  }
+  #overview .content .grid-section {
+    width: 100%;
+    margin: 4rem 0;
+  }
+  #overview .content .grid-section .text {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: unset;
+  }
+  #overview .content .grid-section img {
+    width: 60%;
+  }
+}

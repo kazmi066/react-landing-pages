@@ -1,0 +1,60 @@
+#origin {
+  background: #061829;
+  color: white;
+  padding: 8rem 1rem;
+}
+
+#origin .content .title {
+  font-size: clamp(3rem, 5vw, 70px);
+  padding: 1rem 0;
+}
+
+#origin .content .desc {
+  color: #f8f8f8;
+  font-size: clamp(0.6rem, 5vw, 28px);
+  line-height: 2.2rem;
+}
+
+#origin .content .text {
+  width: 65%;
+  padding: 0 3rem 2rem 3rem;
+}
+
+#origin .content .image img {
+  width: 100rem;
+  margin-left: -10rem;
+  height: 50rem;
+  object-fit: cover;
+}
+
+/* #origin .video {
+  position: relative;
+  width: 90%;
+  margin: 3rem auto;
+  padding-top: 56.25%;
+} */
+
+/* #origin .video .responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+@media only screen and (max-width: 900px) {
+  #origin .content .text {
+    width: 100%;
+    padding: 3rem 0rem;
+    text-align: left;
+  }
+
+  #origin .content .image img {
+    width: 100%;
+    margin-left: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+}
