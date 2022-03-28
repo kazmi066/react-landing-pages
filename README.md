@@ -7,4 +7,4 @@
 
 [Shark-nft-landing-page](screenshots/shark-landing-page-nft.png?raw=true)
 
-[Grant-canyon-landing-page](screenshots/grant-canyon.png?raw=true)
+[Grant-canyon-landing-page](screenshots/grant_canyon.png?raw=true)
