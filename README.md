@@ -1,12 +1,3 @@
-### Couple of React Projects I made for fun
+### Couple of Frontend Projects made for some clients
 
-### Screenshots
-[Acer-laptop-page](/screenshots/acer-laptop-brand-page.png?raw=true)
-
-[Grant-canyon-landing-page](screenshots/grant_canyon.png?raw=true)
-
-[Prestau-about-form-page](/screenshots/prestau-frontend.png?raw=true)
-
-[UserQual-page](/screenshots/UserQual-landing-page.png?raw=true)
-
-[Shark-nft-landing-page](screenshots/shark-landing-page-nft.png?raw=true)
+<img width="1440" alt="Screenshot 2023-04-05 at 9 40 05 PM" src="https://user-images.githubusercontent.com/37541648/230147874-082e5192-4e4a-4a08-a748-b59d5b9993ee.png">
